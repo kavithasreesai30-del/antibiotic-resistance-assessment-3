@@ -1,4 +1,4 @@
-﻿# Exploring Antibiotic Resistance Trends in *E. coli* Bloodstream Infections in England
+# Exploring Antibiotic Resistance Trends in *E. coli* Bloodstream Infections in England
 
 ## Project Overview
 
@@ -20,7 +20,8 @@ The analysis aims to investigate patterns and trends in the selected dataset usi
 - 
 otebooks/ — Jupyter Notebook analysis.
 - outputs/ — Generated analytical outputs and visualisations.
-- eports/ — Project reports and supporting documentation.
+- 
+eports/ — Project reports and supporting documentation.
 
 ## Data Source
 
