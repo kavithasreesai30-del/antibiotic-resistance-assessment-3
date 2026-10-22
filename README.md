@@ -8,32 +8,41 @@ The analysis aims to investigate patterns and trends in the selected dataset usi
 
 ## Project Objectives
 
-- Explore the selected antibiotic resistance surveillance dataset.
-- Investigate resistance patterns across the antibiotic groups represented in the data.
-- Examine changes over time, where supported by the available data.
-- Communicate findings through clear visualisations and a dashboard.
-- Consider data quality, privacy, potential bias, and ethical responsibilities.
+* Explore the selected antibiotic resistance surveillance dataset.
+* Investigate resistance patterns across the antibiotic groups represented in the data.
+* Examine changes over time, where supported by the available data.
+* Communicate findings through clear visualisations and a dashboard.
+* Consider data quality, privacy, potential bias, and ethical responsibilities.
 
 ## Project Structure
 
-- data/ — Dataset files.
-- 
-otebooks/ — Jupyter Notebook analysis.
-- outputs/ — Generated analytical outputs and visualisations.
-- 
-eports/ — Project reports and supporting documentation.
+```text
+antibiotic-resistance-assessment-3/
+├── data/
+│   └── ukhsa-chart-download.csv
+├── notebooks/
+│   └── ethical_practice_data_analysis.ipynb
+├── .gitignore
+├── README.md
+└── requirements.txt
+```
 
 ## Data Source
 
-UK Health Security Agency (UKHSA) surveillance data. The specific dataset details and source reference will be documented as the analysis progresses.
+The project uses publicly available surveillance data from the UK Health Security Agency (UKHSA), accessed through its official data dashboard.
 
-## Tools
+* **Dataset:** [Antimicrobial resistance in *E. coli* bacteraemia — UKHSA](https://ukhsa-dashboard.data.gov.uk/antimicrobial-resistance/antimicrobial-resistance-in-ecoli-bacteraemia)
 
-- Python
-- Jupyter Notebook
-- Visual Studio Code
-- Git and GitHub
+The downloaded dataset is stored locally in the `data/` directory. The source and applicable usage conditions will be documented to support transparency and responsible data use.
+
+## Tools and Technologies
+
+* Python
+* Jupyter Notebook
+* Visual Studio Code
+* Git and GitHub
 
 ## Project Status
 
-Project setup and initial documentation are in progress.
+Project setup, documentation, and initial dataset inspection are in progress.
+
