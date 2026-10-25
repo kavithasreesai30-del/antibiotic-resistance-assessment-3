@@ -1,3 +1,5 @@
+![Code Institute Logo](https://avatars.githubusercontent.com/u/16867170?s=200&v=4)
+
 # Exploring Antibiotic Resistance Trends in *E. coli* Bloodstream Infections in England
 
 ## Project Overview
@@ -5,6 +7,10 @@
 This project explores publicly available surveillance data relating to antibiotic resistance in *Escherichia coli* (*E. coli*) bloodstream infections in England.
 
 The analysis aims to investigate patterns and trends in the selected dataset using data analysis and visualisation. The findings will be communicated through appropriate visualisations and a dashboard.
+
+## Project Board
+
+[View the Assessment 3 Project Board](https://github.com/users/kavithasreesai30-del/projects/4/views/1)
 
 ## Project Objectives
 
