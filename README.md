@@ -48,6 +48,18 @@ The main measure analysed is the percentage of tested *E. coli* bloodstream infe
 
 The dataset supports comparisons between antibiotics and exploration of changes in resistance percentages over time. It contains aggregated national surveillance statistics rather than identifiable patient records.
 
+## Business Requirements
+
+The project aims to turn publicly available UKHSA antibiotic resistance surveillance data into clear, understandable insights that can support awareness and further investigation of antibiotic resistance trends in England.
+
+The project requirements are to:
+
+* **Identify resistance patterns:** Compare reported resistance percentages across seven antibiotic categories.
+* **Explore changes over time:** Examine monthly resistance trends from July 2021 to July 2026, taking account of the three-month rolling reporting period.
+* **Communicate findings clearly:** Use appropriate charts and an interactive Tableau Public dashboard to present the results to both technical and non-technical audiences.
+* **Support responsible interpretation:** Explain the dataset’s limitations and avoid unsupported causal claims or individualised clinical advice.
+* **Follow ethical data practices:** Acknowledge the UKHSA source, respect applicable reuse conditions, and communicate the findings accurately and transparently.
+
 
 ## Tools and Technologies
 
