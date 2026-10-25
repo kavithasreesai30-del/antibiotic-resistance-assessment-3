@@ -32,8 +32,10 @@ antibiotic-resistance-assessment-3/
 The project uses publicly available surveillance data from the UK Health Security Agency (UKHSA), accessed through its official data dashboard.
 
 * **Dataset:** [Antimicrobial resistance in *E. coli* bacteraemia — UKHSA](https://ukhsa-dashboard.data.gov.uk/antimicrobial-resistance/antimicrobial-resistance-in-ecoli-bacteraemia)
+* **Local dataset file:** `data/ukhsa-chart-download.csv`
 
-The downloaded dataset is stored locally in the `data/` directory. The source and applicable usage conditions will be documented to support transparency and responsible data use.
+The downloaded dataset is stored locally in the `data/` directory. The original source is acknowledged to support transparency and reproducibility. The dataset will be used in accordance with the applicable licence and conditions of use.
+
 
 ## Tools and Technologies
 
