@@ -130,6 +130,31 @@ The project uses a combination of Python visualisations and a Tableau Public das
 
 Clear titles, labels and percentage formatting help readers interpret the charts. The findings are presented as descriptive surveillance patterns rather than explanations of causation or clinical recommendations.
 
+## Analysis Techniques Used
+
+### Data Analysis Methods
+
+The project used the following techniques to explore the UKHSA antibiotic resistance dataset:
+
+
+* **Data inspection and quality checks:** Reviewed the dataset structure, data types, missing values, duplicate records and resistance percentage ranges before analysis.
+* **Descriptive statistics:** Calculated summary measures, including mean, minimum and maximum resistance percentages, to compare antibiotic categories.
+* **Time-series analysis:** Examined monthly reporting patterns using line charts, taking account of the three-month rolling reporting period.
+* **Comparative visualisation:** Used bar charts, box plots and a heatmap to compare resistance levels and distributions across antibiotic categories and reporting dates.
+* **Hypothesis evaluation:** Used descriptive statistics and visual evidence to assess the three project hypotheses.
+
+### Limitations and Alternative Approaches
+
+Descriptive analysis is appropriate for identifying patterns in surveillance data, but it cannot establish the causes of antibiotic resistance or predict future outcomes. The dataset covers national aggregated statistics, so it does not show individual patient circumstances. Three-month rolling figures can also smooth short-term changes, and revisions to surveillance figures or changes in testing standards may affect comparisons over time.
+
+More advanced statistical methods could be considered in future work if suitable data and assumptions were available. Any additional methods would need to be justified and their limitations explained.
+
+### Use of Generative AI
+
+Generative AI was used as a supporting tool during project development to help clarify concepts, organise documentation, troubleshoot coding issues and improve explanations. The dataset, analysis outputs and project findings were reviewed in the context of the actual work rather than accepted without checking.
+
+AI-generated suggestions can be incomplete or inaccurate, so they require verification. AI was not treated as a source of surveillance evidence, and the project's conclusions are based on the dataset and the analysis performed.
+
 
 ## Tools and Technologies
 
