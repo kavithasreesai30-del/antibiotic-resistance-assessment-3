@@ -78,6 +78,22 @@ The project investigates three hypotheses using the UKHSA antibiotic resistance 
 
 These hypotheses are assessed using descriptive analysis. The results can indicate patterns in the available data but cannot establish the causes of resistance or predict future outcomes.
 
+## Project Plan
+
+The project was completed in stages to support a structured and responsible analysis of antibiotic resistance trends.
+
+1. **Project setup:** Create the repository, organise the project folders, and document the project purpose and objectives.
+2. **Data sourcing and inspection:** Obtain the public UKHSA dataset, review its structure and source documentation, and identify relevant variables.
+3. **Data preparation:** Check data types, missing values, duplicate records and value ranges before analysis.
+4. **Exploratory data analysis:** Calculate summary statistics and examine resistance percentages across antibiotic categories and over time.
+5. **Visualisation and interpretation:** Create charts in Python and develop an interactive Tableau Public dashboard to communicate the findings.
+6. **Ethical review:** Consider privacy, data governance, bias, limitations and the risk of misleading interpretations.
+7. **Documentation and evaluation:** Record the methods, findings, limitations and lessons learned in the notebook and README, and review the dashboard for clarity and usability.
+
+### Maintenance and Future Updates
+
+If the project is extended, the dataset should be checked against the latest UKHSA publication before new data is incorporated. Any updates should be documented, the analysis and visualisations rerun, and the results reviewed for consistency and accuracy. Dashboard usability and accessibility should also be evaluated, with improvements made where appropriate.
+
 
 ## Tools and Technologies
 
