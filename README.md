@@ -78,6 +78,16 @@ The project investigates three hypotheses using the UKHSA antibiotic resistance 
 
 These hypotheses are assessed using descriptive analysis. The results can indicate patterns in the available data but cannot establish the causes of resistance or predict future outcomes.
 
+## Results and Conclusions
+
+The descriptive analysis identified differences in resistance percentages across the seven antibiotic categories.
+
+* **Hypothesis 1 was supported:** Co-amoxiclav had the highest mean resistance percentage at 42.69%.
+* **Hypothesis 3 was supported:** Carbapenems had the lowest mean resistance percentage at 0.21%, while Amikacin had a mean of 2.76%.
+* **Hypothesis 2 received preliminary support:** The time-series visualisation suggested increases for some antibiotic categories, while others fluctuated or remained relatively stable. These patterns should be interpreted cautiously.
+
+These findings describe the available national surveillance data. They do not establish the causes of antibiotic resistance or predict future trends. The published monthly values represent three-month rolling measures, and results may be affected by data revisions or changes in testing standards.
+
 ## Project Plan
 
 The project was completed in stages to support a structured and responsible analysis of antibiotic resistance trends.
