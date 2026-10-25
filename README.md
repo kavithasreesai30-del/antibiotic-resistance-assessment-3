@@ -155,6 +155,28 @@ Generative AI was used as a supporting tool during project development to help c
 
 AI-generated suggestions can be incomplete or inaccurate, so they require verification. AI was not treated as a source of surveillance evidence, and the project's conclusions are based on the dataset and the analysis performed.
 
+## Ethical Considerations
+
+### Privacy and Data Protection
+
+This project uses publicly available, aggregated UKHSA national surveillance statistics rather than identifiable patient records. The analysis does not attempt to identify individuals. The dataset source is acknowledged, and the data is used for educational and analytical purposes in accordance with applicable reuse conditions.
+
+### Data Governance and Transparency
+
+The dataset's source, reporting period and relevant measurement limitations are documented. The analysis recognises that the published monthly figures represent three-month rolling measures. Surveillance figures may be revised, and changes in antibiotic susceptibility testing standards may affect comparisons over time.
+
+### Bias and Fairness
+
+The dataset provides national-level results and does not represent every patient's individual circumstances. Differences in the populations tested, healthcare settings or testing practices may influence the reported percentages. The findings should therefore not be generalised beyond what the available data supports.
+
+### Responsible Interpretation and Social Impact
+
+Antibiotic resistance is a public health issue, so misleading charts or unsupported claims could cause unnecessary concern or lead to incorrect conclusions. Visualisations use clear labels and percentage values to support accurate interpretation. The analysis describes observed patterns but does not establish their causes, predict individual outcomes or provide treatment recommendations.
+
+### Responsible Use of Generative AI
+
+Generative AI supported aspects of coding, troubleshooting and documentation. Its suggestions were treated as assistance rather than authoritative evidence. Factual claims and conclusions were checked against the dataset and the work performed, recognising that AI can produce inaccurate or misleading information.
+
 
 ## Tools and Technologies
 
