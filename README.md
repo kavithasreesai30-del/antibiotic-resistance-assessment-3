@@ -210,6 +210,14 @@ Technical readers can use the dashboard alongside the Jupyter Notebook to unders
 
 The dashboard uses labelled visualisations and percentage values to support interpretation. The findings should be read alongside the project's documented limitations, particularly the three-month rolling reporting period. The dashboard presents descriptive surveillance information, not individualised clinical advice or evidence of causation.
 
+## User Feedback and Evaluation
+
+The dashboard was reviewed during development to check that its titles, labels, percentage values and visualisations communicate the findings clearly. The presentation was also considered from the perspective of technical and non-technical audiences.
+
+Formal feedback from external users has not yet been collected. Further evaluation could involve asking healthcare professionals, public health practitioners and other intended users to review the dashboard and comment on its clarity, usability and accessibility.
+
+Feedback could then be used to improve the dashboard's layout, explanations and filters. Accessibility and usability testing would also help identify areas that may need improvement.
+
 ## Unfixed Bugs and Knowledge Gaps
 
 No specific unresolved technical bugs have been documented at this stage. However, some aspects of the project would benefit from further testing and development.
