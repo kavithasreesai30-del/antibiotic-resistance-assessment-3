@@ -14,22 +14,19 @@ The analysis aims to investigate patterns and trends in the selected dataset usi
 * Communicate findings through clear visualisations and a dashboard.
 * Consider data quality, privacy, potential bias, and ethical responsibilities.
 
-## Project Structure
+## Business Requirements
 
-```text
-antibiotic-resistance-assessment-3/
-├── data/
-│   └── ukhsa-chart-download.csv
-├── notebooks/
-│   └── ethical_practice_data_analysis.ipynb
-├── outputs/
-│   └── resistance_summary.csv
-├── reports/
-│   └── project_summary.md
-├── .gitignore
-├── README.md
-└── requirements.txt
-```
+The project aims to turn publicly available UKHSA antibiotic resistance surveillance data into clear, understandable insights that can support awareness and further investigation of antibiotic resistance trends in England.
+
+The project requirements are to:
+
+* **Identify resistance patterns:** Compare reported resistance percentages across seven antibiotic categories.
+* **Explore changes over time:** Examine monthly resistance trends from July 2021 to July 2026, taking account of the three-month rolling reporting period.
+* **Communicate findings clearly:** Use appropriate charts and an interactive Tableau Public dashboard to present the results to both technical and non-technical audiences.
+* **Support responsible interpretation:** Explain the dataset’s limitations and avoid unsupported causal claims or individualised clinical advice.
+* **Follow ethical data practices:** Acknowledge the UKHSA source, respect applicable reuse conditions, and communicate the findings accurately and transparently.
+
+
 
 ## Data Source
 
@@ -50,17 +47,38 @@ The main measure analysed is the percentage of tested *E. coli* bloodstream infe
 
 The dataset supports comparisons between antibiotics and exploration of changes in resistance percentages over time. It contains aggregated national surveillance statistics rather than identifiable patient records.
 
-## Business Requirements
+## Project Structure
 
-The project aims to turn publicly available UKHSA antibiotic resistance surveillance data into clear, understandable insights that can support awareness and further investigation of antibiotic resistance trends in England.
+```text
+antibiotic-resistance-assessment-3/
+├── data/
+│   └── ukhsa-chart-download.csv
+├── notebooks/
+│   └── ethical_practice_data_analysis.ipynb
+├── outputs/
+│   └── resistance_summary.csv
+├── reports/
+│   └── project_summary.md
+├── .gitignore
+├── README.md
+└── requirements.txt
+```
 
-The project requirements are to:
+## Project Plan
 
-* **Identify resistance patterns:** Compare reported resistance percentages across seven antibiotic categories.
-* **Explore changes over time:** Examine monthly resistance trends from July 2021 to July 2026, taking account of the three-month rolling reporting period.
-* **Communicate findings clearly:** Use appropriate charts and an interactive Tableau Public dashboard to present the results to both technical and non-technical audiences.
-* **Support responsible interpretation:** Explain the dataset’s limitations and avoid unsupported causal claims or individualised clinical advice.
-* **Follow ethical data practices:** Acknowledge the UKHSA source, respect applicable reuse conditions, and communicate the findings accurately and transparently.
+The project was completed in stages to support a structured and responsible analysis of antibiotic resistance trends.
+
+1. **Project setup:** Create the repository, organise the project folders, and document the project purpose and objectives.
+2. **Data sourcing and inspection:** Obtain the public UKHSA dataset, review its structure and source documentation, and identify relevant variables.
+3. **Data preparation:** Check data types, missing values, duplicate records and value ranges before analysis.
+4. **Exploratory data analysis:** Calculate summary statistics and examine resistance percentages across antibiotic categories and over time.
+5. **Visualisation and interpretation:** Create charts in Python and develop an interactive Tableau Public dashboard to communicate the findings.
+6. **Ethical review:** Consider privacy, data governance, bias, limitations and the risk of misleading interpretations.
+7. **Documentation and evaluation:** Record the methods, findings, limitations and lessons learned in the notebook and README, and review the dashboard for clarity and usability.
+
+### Maintenance and Future Updates
+
+If the project is extended, the dataset should be checked against the latest UKHSA publication before new data is incorporated. Any updates should be documented, the analysis and visualisations rerun, and the results reviewed for consistency and accuracy. Dashboard usability and accessibility should also be evaluated, with improvements made where appropriate.
 
 ## Hypothesis and How to Validate Them
 
@@ -85,26 +103,21 @@ These hypotheses are assessed using descriptive analysis. The results can indica
 The descriptive analysis identified differences in resistance percentages across the seven antibiotic categories.
 
 * **Hypothesis 1 was supported:** Co-amoxiclav had the highest mean resistance percentage at 42.69%.
+* **Hypothesis 2 received preliminary support:** Comparing July 2021 with July 2026, six of the seven antibiotic categories showed higher resistance percentages. Increases ranged from 0.70 percentage points for Amikacin to 4.77 percentage points for third-generation cephalosporins. Carbapenems decreased by 0.03 percentage points. This endpoint comparison does not mean resistance increased continuously throughout the study period.
 * **Hypothesis 3 was supported:** Carbapenems had the lowest mean resistance percentage at 0.21%, while Amikacin had a mean of 2.76%.
-* **Hypothesis 2 received preliminary support:** The time-series visualisation suggested increases for some antibiotic categories, while others fluctuated or remained relatively stable. These patterns should be interpreted cautiously.
 
-These findings describe the available national surveillance data. They do not establish the causes of antibiotic resistance or predict future trends. The published monthly values represent three-month rolling measures, and results may be affected by data revisions or changes in testing standards.
+These findings describe the available national surveillance data. They do not establish the causes of antibiotic resistance or predict future trends. The reported monthly values represent three-month rolling measures, and results may be affected by data revisions or changes in testing standards.
 
-## Project Plan
 
-The project was completed in stages to support a structured and responsible analysis of antibiotic resistance trends.
+## Rationale for Research Methodology
 
-1. **Project setup:** Create the repository, organise the project folders, and document the project purpose and objectives.
-2. **Data sourcing and inspection:** Obtain the public UKHSA dataset, review its structure and source documentation, and identify relevant variables.
-3. **Data preparation:** Check data types, missing values, duplicate records and value ranges before analysis.
-4. **Exploratory data analysis:** Calculate summary statistics and examine resistance percentages across antibiotic categories and over time.
-5. **Visualisation and interpretation:** Create charts in Python and develop an interactive Tableau Public dashboard to communicate the findings.
-6. **Ethical review:** Consider privacy, data governance, bias, limitations and the risk of misleading interpretations.
-7. **Documentation and evaluation:** Record the methods, findings, limitations and lessons learned in the notebook and README, and review the dashboard for clarity and usability.
+A quantitative, descriptive approach was selected because the UKHSA dataset contains numerical resistance percentages recorded over time for different antibiotic categories.
 
-### Maintenance and Future Updates
+Python was used to inspect and prepare the dataset, calculate summary statistics, explore patterns and create visualisations. Line charts helped examine changes over time, bar charts supported comparisons between antibiotics, and box plots and a heatmap provided additional views of the distribution and variation in the data.
 
-If the project is extended, the dataset should be checked against the latest UKHSA publication before new data is incorporated. Any updates should be documented, the analysis and visualisations rerun, and the results reviewed for consistency and accuracy. Dashboard usability and accessibility should also be evaluated, with improvements made where appropriate.
+Tableau Public was used to present the findings in an interactive dashboard, allowing readers to explore the results visually. Using both Python and Tableau supported analysis as well as communication of the findings.
+
+This approach was suitable for identifying patterns and assessing the project hypotheses without making unsupported causal claims. The analysis is limited by the scope and quality of the published dataset, the use of three-month rolling figures and the fact that descriptive analysis alone cannot establish why resistance patterns occur.
 
 ## Data Management Throughout Collection, Processing, Analysis and Interpretation
 
@@ -117,30 +130,6 @@ If the project is extended, the dataset should be checked against the latest UKH
 **Data interpretation and communication:** Findings were presented through the Jupyter Notebook and Tableau Public dashboard. Labels, summaries and explanations were used to make the results understandable to technical and non-technical readers.
 
 **Governance and responsible use:** The analysis uses aggregated national surveillance statistics, not identifiable patient records. The source and applicable reuse conditions should be acknowledged, and the results should not be used to make unsupported claims about individual patients, causes of resistance or clinical treatment decisions.
-
-## Rationale for Research Methodology
-
-A quantitative, descriptive approach was selected because the UKHSA dataset contains numerical resistance percentages recorded over time for different antibiotic categories.
-
-Python was used to inspect and prepare the dataset, calculate summary statistics, explore patterns and create visualisations. Line charts helped examine changes over time, bar charts supported comparisons between antibiotics, and box plots and a heatmap provided additional views of the distribution and variation in the data.
-
-Tableau Public was used to present the findings in an interactive dashboard, allowing readers to explore the results visually. Using both Python and Tableau supported analysis as well as communication of the findings.
-
-This approach was suitable for identifying patterns and assessing the project hypotheses without making unsupported causal claims. The analysis is limited by the scope and quality of the published dataset, the use of three-month rolling figures and the fact that descriptive analysis alone cannot establish why resistance patterns occur.
-
-## Mapping Business Requirements to Data Visualisations
-
-The project uses a combination of Python visualisations and a Tableau Public dashboard to communicate antibiotic resistance patterns.
-
-| Business requirement                          | Visualisation            | Purpose                                                                                         |
-| --------------------------------------------- | ------------------------ | ----------------------------------------------------------------------------------------------- |
-| Compare resistance across antibiotics         | Bar chart                | Compare average resistance percentages between the seven antibiotic categories.                 |
-| Explore changes over time                     | Line chart               | Show how resistance percentages vary across the reporting period.                               |
-| Examine the distribution of resistance values | Box plot                 | Show the spread and variation of resistance percentages for each antibiotic category.           |
-| Compare patterns across antibiotics and time  | Heatmap                  | Provide an overview of resistance percentages across antibiotic categories and reporting dates. |
-| Communicate findings interactively            | Tableau Public dashboard | Bring the visualisations together so readers can explore the results.                           |
-
-Clear titles, labels and percentage formatting help readers interpret the charts. The findings are presented as descriptive surveillance patterns rather than explanations of causation or clinical recommendations.
 
 ## Analysis Techniques Used
 
@@ -166,6 +155,22 @@ More advanced statistical methods could be considered in future work if suitable
 Generative AI was used as a supporting tool during project development to help clarify concepts, organise documentation, troubleshoot coding issues and improve explanations. The dataset, analysis outputs and project findings were reviewed in the context of the actual work rather than accepted without checking.
 
 AI-generated suggestions can be incomplete or inaccurate, so they require verification. AI was not treated as a source of surveillance evidence, and the project's conclusions are based on the dataset and the analysis performed.
+
+
+## Mapping Business Requirements to Data Visualisations
+
+The project uses a combination of Python visualisations and a Tableau Public dashboard to communicate antibiotic resistance patterns.
+
+| Business requirement                          | Visualisation            | Purpose                                                                                         |
+| --------------------------------------------- | ------------------------ | ----------------------------------------------------------------------------------------------- |
+| Compare resistance across antibiotics         | Bar chart                | Compare average resistance percentages between the seven antibiotic categories.                 |
+| Explore changes over time                     | Line chart               | Show how resistance percentages vary across the reporting period.                               |
+| Examine the distribution of resistance values | Box plot                 | Show the spread and variation of resistance percentages for each antibiotic category.           |
+| Compare patterns across antibiotics and time  | Heatmap                  | Provide an overview of resistance percentages across antibiotic categories and reporting dates. |
+| Communicate findings interactively            | Tableau Public dashboard | Bring the visualisations together so readers can explore the results.                           |
+
+Clear titles, labels and percentage formatting help readers interpret the charts. The findings are presented as descriptive surveillance patterns rather than explanations of causation or clinical recommendations.
+
 
 ## Ethical Considerations
 
@@ -279,6 +284,15 @@ The project uses the following Python libraries for data analysis and visualisat
 * **Matplotlib:** Creating charts and visualisations.
 * **Seaborn:** Creating statistical visualisations, including distribution plots and heatmaps.
 
+## Tools and Technologies
+
+* **Python** – Data inspection, cleaning, exploratory data analysis and statistical analysis.
+* **Jupyter Notebook** – Documentation and execution of the analysis.
+* **Tableau Public** – Data visualisation and interactive dashboard development.
+* **Visual Studio Code** – Project development and file management.
+* **Git and GitHub** – Version control, project documentation and code hosting.
+
+
 ## Credits
 
 * **Data source:** UK Health Security Agency (UKHSA), for the publicly available *E. coli* bacteraemia antimicrobial resistance surveillance data.
@@ -292,18 +306,9 @@ The original data source is acknowledged, and its applicable reuse conditions sh
 
 Thanks to Code Institute for the learning resources and assessment guidance that supported the development of this project.
 
-## Tools and Technologies
-
-* **Python** – Data inspection, cleaning, exploratory data analysis and statistical analysis.
-* **Jupyter Notebook** – Documentation and execution of the analysis.
-* **Tableau Public** – Data visualisation and interactive dashboard development.
-* **Visual Studio Code** – Project development and file management.
-* **Git and GitHub** – Version control, project documentation and code hosting.
-
-
 ## Project Status
 
-The project has progressed from initial setup to data analysis, visualisation and dashboard publication.
+The project has progressed from initial setup to data analysis, visualisation, ethical review and dashboard publication.
 
 * **Project setup:** Completed.
 * **Dataset inspection and preparation:** Completed.
@@ -311,4 +316,5 @@ The project has progressed from initial setup to data analysis, visualisation an
 * **Statistical analysis and hypothesis evaluation:** Completed.
 * **Ethical considerations and limitations:** Documented.
 * **Tableau Public dashboard:** Completed and published.
-* **README and final documentation:** In progress.
+* **Project summary report and analysis outputs:** Completed.
+* **README and final documentation:** Completed.
