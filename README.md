@@ -212,6 +212,24 @@ No specific unresolved technical bugs have been documented at this stage. Howeve
 
 These points are recognised as limitations or opportunities for improvement, rather than confirmed software defects.
 
+## Project Reflection and Challenges
+
+### Challenges Faced
+
+During development, the project involved working with surveillance data, checking data quality, selecting suitable visualisations and presenting the results clearly. Building the analysis in Python and creating an interactive Tableau Public dashboard also required learning and troubleshooting across different tools.
+
+These challenges were addressed by inspecting the dataset, checking the analysis outputs, refining the visualisations and documenting the methods and limitations.
+
+### Skills and Learning
+
+The project provided practical experience in data inspection, data preparation, exploratory data analysis, descriptive statistics, hypothesis evaluation and dashboard development. It also strengthened understanding of data governance, privacy, potential bias and the importance of communicating public health information responsibly.
+
+### What Could Be Improved?
+
+Future work could include obtaining and incorporating updated UKHSA data, exploring additional statistical methods where appropriate, and gathering feedback from intended dashboard users. Further accessibility and usability testing would help assess whether the visualisations are clear to different audiences.
+
+This reflection recognises that analytical work involves both technical development and responsible interpretation. Conclusions must remain within the limits of the available evidence.
+
 ## Development Roadmap
 
 Future improvements could extend the analysis and strengthen the project's usability and reproducibility.
