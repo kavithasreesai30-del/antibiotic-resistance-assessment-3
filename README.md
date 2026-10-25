@@ -230,6 +230,15 @@ The Jupyter Notebook and supporting project files are maintained in the GitHub r
 
 The dashboard link will be added to this section during the final README review.
 
+## Main Data Analysis Libraries
+
+The project uses the following Python libraries for data analysis and visualisation:
+
+* **pandas:** Loading, inspecting and preparing tabular data.
+* **NumPy:** Supporting numerical operations.
+* **Matplotlib:** Creating charts and visualisations.
+* **Seaborn:** Creating statistical visualisations, including distribution plots and heatmaps.
+
 
 ## Tools and Technologies
 
