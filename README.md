@@ -23,7 +23,9 @@ antibiotic-resistance-assessment-3/
 ├── notebooks/
 │   └── ethical_practice_data_analysis.ipynb
 ├── outputs/
+│   └── resistance_summary.csv
 ├── reports/
+│   └── project_summary.md
 ├── .gitignore
 ├── README.md
 └── requirements.txt
