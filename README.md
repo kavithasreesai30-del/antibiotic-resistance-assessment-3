@@ -22,10 +22,13 @@ antibiotic-resistance-assessment-3/
 │   └── ukhsa-chart-download.csv
 ├── notebooks/
 │   └── ethical_practice_data_analysis.ipynb
+├── outputs/
+├── reports/
 ├── .gitignore
 ├── README.md
 └── requirements.txt
 ```
+
 
 ## Data Source
 
