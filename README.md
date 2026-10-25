@@ -200,6 +200,28 @@ Technical readers can use the dashboard alongside the Jupyter Notebook to unders
 
 The dashboard uses labelled visualisations and percentage values to support interpretation. The findings should be read alongside the project's documented limitations, particularly the three-month rolling reporting period. The dashboard presents descriptive surveillance information, not individualised clinical advice or evidence of causation.
 
+## Unfixed Bugs and Knowledge Gaps
+
+No specific unresolved technical bugs have been documented at this stage. However, some aspects of the project would benefit from further testing and development.
+
+* **Dashboard usability:** The dashboard would benefit from feedback from intended users to confirm that the charts, labels and filters are easy to understand.
+* **Accessibility testing:** Further checks could assess colour contrast, readability and usability for people with different accessibility needs.
+* **Data updates:** The project currently uses a downloaded dataset. New UKHSA data would need to be obtained and the analysis rerun manually.
+* **Data interpretation:** National aggregated statistics do not explain the causes of resistance or reflect every patient's individual circumstances.
+* **Changes in reporting:** Revisions to surveillance figures or changes in testing standards may affect comparisons over time.
+
+These points are recognised as limitations or opportunities for improvement, rather than confirmed software defects.
+
+## Development Roadmap
+
+Future improvements could extend the analysis and strengthen the project's usability and reproducibility.
+
+* **Update the dataset:** Obtain newer UKHSA surveillance data and rerun the analysis when updates become available.
+* **Improve dashboard accessibility:** Review colour contrast, labels and readability, and gather feedback from intended users.
+* **Extend the analysis:** Explore suitable additional statistical methods if the available data supports them.
+* **Improve reproducibility:** Document the update process and ensure that future changes to the dataset are reflected consistently in the notebook and dashboard.
+* **Develop analytical skills:** Continue building skills in Python, statistical analysis and dashboard design to support future healthcare data analytics projects.
+
 
 ## Tools and Technologies
 
