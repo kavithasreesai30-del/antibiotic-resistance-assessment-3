@@ -29,7 +29,6 @@ antibiotic-resistance-assessment-3/
 └── requirements.txt
 ```
 
-
 ## Data Source
 
 The project uses publicly available surveillance data from the UK Health Security Agency (UKHSA), accessed through its official data dashboard.
@@ -38,6 +37,16 @@ The project uses publicly available surveillance data from the UK Health Securit
 * **Local dataset file:** `data/ukhsa-chart-download.csv`
 
 The downloaded dataset is stored locally in the `data/` directory. The original source is acknowledged to support transparency and reproducibility. The dataset will be used in accordance with the applicable licence and conditions of use.
+
+## Dataset Content
+
+The project uses publicly available surveillance data from the UK Health Security Agency (UKHSA) to explore antibiotic resistance in *E. coli* bloodstream infections in England.
+
+The dataset contains monthly resistance percentages for seven antibiotic categories, covering July 2021 to July 2026. It includes information such as the reporting date, antibiotic category, geographical area, demographic group, and resistance percentage.
+
+The main measure analysed is the percentage of tested *E. coli* bloodstream infection samples reported as resistant to each antibiotic. The published monthly figures use a three-month rolling period, so they should not be interpreted as measurements for a single month alone.
+
+The dataset supports comparisons between antibiotics and exploration of changes in resistance percentages over time. It contains aggregated national surveillance statistics rather than identifiable patient records.
 
 
 ## Tools and Technologies
