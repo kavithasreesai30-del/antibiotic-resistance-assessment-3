@@ -222,6 +222,14 @@ Future improvements could extend the analysis and strengthen the project's usabi
 * **Improve reproducibility:** Document the update process and ensure that future changes to the dataset are reflected consistently in the notebook and dashboard.
 * **Develop analytical skills:** Continue building skills in Python, statistical analysis and dashboard design to support future healthcare data analytics projects.
 
+## Deployment
+
+The interactive dashboard was published using Tableau Public, which allows readers to access and explore the visualisations through a web browser.
+
+The Jupyter Notebook and supporting project files are maintained in the GitHub repository. The notebook documents the analysis process, while the dashboard provides a visual summary of the findings.
+
+The dashboard link will be added to this section during the final README review.
+
 
 ## Tools and Technologies
 
