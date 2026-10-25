@@ -106,6 +106,16 @@ If the project is extended, the dataset should be checked against the latest UKH
 
 **Governance and responsible use:** The analysis uses aggregated national surveillance statistics, not identifiable patient records. The source and applicable reuse conditions should be acknowledged, and the results should not be used to make unsupported claims about individual patients, causes of resistance or clinical treatment decisions.
 
+## Rationale for Research Methodology
+
+A quantitative, descriptive approach was selected because the UKHSA dataset contains numerical resistance percentages recorded over time for different antibiotic categories.
+
+Python was used to inspect and prepare the dataset, calculate summary statistics, explore patterns and create visualisations. Line charts helped examine changes over time, bar charts supported comparisons between antibiotics, and box plots and a heatmap provided additional views of the distribution and variation in the data.
+
+Tableau Public was used to present the findings in an interactive dashboard, allowing readers to explore the results visually. Using both Python and Tableau supported analysis as well as communication of the findings.
+
+This approach was suitable for identifying patterns and assessing the project hypotheses without making unsupported causal claims. The analysis is limited by the scope and quality of the published dataset, the use of three-month rolling figures and the fact that descriptive analysis alone cannot establish why resistance patterns occur.
+
 
 ## Tools and Technologies
 
