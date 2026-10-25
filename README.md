@@ -239,6 +239,18 @@ The project uses the following Python libraries for data analysis and visualisat
 * **Matplotlib:** Creating charts and visualisations.
 * **Seaborn:** Creating statistical visualisations, including distribution plots and heatmaps.
 
+## Credits
+
+* **Data source:** UK Health Security Agency (UKHSA), for the publicly available *E. coli* bacteraemia antimicrobial resistance surveillance data.
+* **Analysis and visualisation:** Python libraries and Tableau Public were used to analyse and present the data.
+* **Generative AI assistance:** OpenAI ChatGPT and Anthropic Claude supported the project throughout its development, including clarifying concepts, explaining code, troubleshooting errors, refining documentation and discussing analytical approaches. AI-generated suggestions were reviewed and checked against the project work, and the tools were used as assistants rather than substitutes for the analysis and evaluation.
+
+
+The original data source is acknowledged, and its applicable reuse conditions should be followed.
+
+## Acknowledgements
+
+Thanks to Code Institute for the learning resources and assessment guidance that supported the development of this project.
 
 ## Tools and Technologies
 
