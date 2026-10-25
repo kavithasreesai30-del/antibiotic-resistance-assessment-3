@@ -260,11 +260,13 @@ Future improvements could extend the analysis and strengthen the project's usabi
 
 ## Deployment
 
-The interactive dashboard was published using Tableau Public, which allows readers to access and explore the visualisations through a web browser.
+The interactive dashboard was created using Tableau Public and published online so that users can explore antibiotic resistance trends in *E. coli* bloodstream infections in England.
 
-The Jupyter Notebook and supporting project files are maintained in the GitHub repository. The notebook documents the analysis process, while the dashboard provides a visual summary of the findings.
+**View the published dashboard:** [Antibiotic Resistance Analysis | Tableau Public](https://public.tableau.com/app/profile/kav.kavz/viz/AntibioticResistanceAnalysis/AntibioticResistanceDashboard_1?publish=yes)
 
-The dashboard link will be added to this section during the final README review.
+The dashboard presents resistance percentages across seven antibiotic categories and allows users to explore patterns and changes over time. Tableau Public makes the visualisation accessible online without requiring users to run the Python analysis locally.
+
+The analysis notebook, dataset and project documentation are available in the [GitHub repository](https://github.com/kavithasreesai30-del/antibiotic-resistance-assessment-3).
 
 ## Main Data Analysis Libraries
 
