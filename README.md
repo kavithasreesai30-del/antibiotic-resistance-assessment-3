@@ -116,6 +116,20 @@ Tableau Public was used to present the findings in an interactive dashboard, all
 
 This approach was suitable for identifying patterns and assessing the project hypotheses without making unsupported causal claims. The analysis is limited by the scope and quality of the published dataset, the use of three-month rolling figures and the fact that descriptive analysis alone cannot establish why resistance patterns occur.
 
+## Mapping Business Requirements to Data Visualisations
+
+The project uses a combination of Python visualisations and a Tableau Public dashboard to communicate antibiotic resistance patterns.
+
+| Business requirement                          | Visualisation            | Purpose                                                                                         |
+| --------------------------------------------- | ------------------------ | ----------------------------------------------------------------------------------------------- |
+| Compare resistance across antibiotics         | Bar chart                | Compare average resistance percentages between the seven antibiotic categories.                 |
+| Explore changes over time                     | Line chart               | Show how resistance percentages vary across the reporting period.                               |
+| Examine the distribution of resistance values | Box plot                 | Show the spread and variation of resistance percentages for each antibiotic category.           |
+| Compare patterns across antibiotics and time  | Heatmap                  | Provide an overview of resistance percentages across antibiotic categories and reporting dates. |
+| Communicate findings interactively            | Tableau Public dashboard | Bring the visualisations together so readers can explore the results.                           |
+
+Clear titles, labels and percentage formatting help readers interpret the charts. The findings are presented as descriptive surveillance patterns rather than explanations of causation or clinical recommendations.
+
 
 ## Tools and Technologies
 
