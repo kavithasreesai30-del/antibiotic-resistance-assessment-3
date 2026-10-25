@@ -94,6 +94,18 @@ The project was completed in stages to support a structured and responsible anal
 
 If the project is extended, the dataset should be checked against the latest UKHSA publication before new data is incorporated. Any updates should be documented, the analysis and visualisations rerun, and the results reviewed for consistency and accuracy. Dashboard usability and accessibility should also be evaluated, with improvements made where appropriate.
 
+## Data Management Throughout Collection, Processing, Analysis and Interpretation
+
+**Data collection:** The dataset was obtained from the official UKHSA antimicrobial resistance dashboard. The source is acknowledged so that readers can locate the published data.
+
+**Data inspection and preparation:** The dataset was loaded into Python and inspected for its structure, data types, missing values, duplicate records and plausible resistance percentage values. The analysis focused on the relevant national surveillance measures.
+
+**Data analysis:** Descriptive statistics and visualisations were used to compare resistance percentages across antibiotic categories and examine patterns over time. The published figures were interpreted as three-month rolling measures rather than isolated monthly results.
+
+**Data interpretation and communication:** Findings were presented through the Jupyter Notebook and Tableau Public dashboard. Labels, summaries and explanations were used to make the results understandable to technical and non-technical readers.
+
+**Governance and responsible use:** The analysis uses aggregated national surveillance statistics, not identifiable patient records. The source and applicable reuse conditions should be acknowledged, and the results should not be used to make unsupported claims about individual patients, causes of resistance or clinical treatment decisions.
+
 
 ## Tools and Technologies
 
