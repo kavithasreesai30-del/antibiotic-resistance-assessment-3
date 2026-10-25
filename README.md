@@ -60,6 +60,24 @@ The project requirements are to:
 * **Support responsible interpretation:** Explain the dataset’s limitations and avoid unsupported causal claims or individualised clinical advice.
 * **Follow ethical data practices:** Acknowledge the UKHSA source, respect applicable reuse conditions, and communicate the findings accurately and transparently.
 
+## Hypothesis and How to Validate Them
+
+The project investigates three hypotheses using the UKHSA antibiotic resistance dataset.
+
+**Hypothesis 1: Co-amoxiclav has a higher resistance percentage than the other antibiotic categories.**
+
+* **Validation:** Compare the mean resistance percentages for all seven antibiotic categories using summary statistics and a bar chart.
+
+**Hypothesis 2: Resistance percentages have increased over the study period for at least some antibiotic categories.**
+
+* **Validation:** Examine the time-series line chart to identify changes and patterns over time. Interpret these patterns cautiously because the published figures use a three-month rolling period.
+
+**Hypothesis 3: Carbapenems and Amikacin have lower resistance percentages than the other antibiotic categories.**
+
+* **Validation:** Compare their mean resistance percentages with those of the other antibiotics using summary statistics and visualisations.
+
+These hypotheses are assessed using descriptive analysis. The results can indicate patterns in the available data but cannot establish the causes of resistance or predict future outcomes.
+
 
 ## Tools and Technologies
 
