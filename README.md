@@ -37,12 +37,21 @@ The downloaded dataset is stored locally in the `data/` directory. The source an
 
 ## Tools and Technologies
 
-* Python
-* Jupyter Notebook
-* Visual Studio Code
-* Git and GitHub
+* **Python** – Data inspection, cleaning, exploratory data analysis and statistical analysis.
+* **Jupyter Notebook** – Documentation and execution of the analysis.
+* **Tableau Public** – Data visualisation and interactive dashboard development.
+* **Visual Studio Code** – Project development and file management.
+* **Git and GitHub** – Version control, project documentation and code hosting.
+
 
 ## Project Status
 
-Project setup, documentation, and initial dataset inspection are in progress.
+The project has progressed from initial setup to data analysis, visualisation and dashboard publication.
 
+* **Project setup:** Completed.
+* **Dataset inspection and preparation:** Completed.
+* **Exploratory data analysis and visualisation:** Completed.
+* **Statistical analysis and hypothesis evaluation:** Completed.
+* **Ethical considerations and limitations:** Documented.
+* **Tableau Public dashboard:** Completed and published.
+* **README and final documentation:** In progress.
