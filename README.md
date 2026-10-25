@@ -231,6 +231,8 @@ Formal feedback from external users has not yet been collected. Further evaluati
 
 Feedback could then be used to improve the dashboard's layout, explanations and filters. Accessibility and usability testing would also help identify areas that may need improvement.
 
+**Explore the interactive dashboard:** [Antibiotic Resistance Dashboard](https://public.tableau.com/app/profile/kav.kavz/viz/AntibioticResistanceAnalysis/AntibioticResistanceDashboard_1?publish=yes)
+
 ## Unfixed Bugs and Knowledge Gaps
 
 No specific unresolved technical bugs have been documented at this stage. However, some aspects of the project would benefit from further testing and development.
@@ -279,7 +281,7 @@ The interactive dashboard was created using Tableau Public and published online 
 
 The dashboard presents resistance percentages across seven antibiotic categories and allows users to explore patterns and changes over time. Tableau Public makes the visualisation accessible online without requiring users to run the Python analysis locally.
 
-The analysis notebook, dataset and project documentation are available in the [GitHub repository](https://github.com/kavithasreesai30-del/antibiotic-resistance-assessment-3).
+The analysis notebook, dataset and project documentation are available in the GitHub Repository: View the project files and analysis
 
 ## Main Data Analysis Libraries
 
