@@ -177,6 +177,29 @@ Antibiotic resistance is a public health issue, so misleading charts or unsuppor
 
 Generative AI supported aspects of coding, troubleshooting and documentation. Its suggestions were treated as assistance rather than authoritative evidence. Factual claims and conclusions were checked against the dataset and the work performed, recognising that AI can produce inaccurate or misleading information.
 
+## Dashboard Design
+
+The interactive dashboard was developed in Tableau Public to communicate antibiotic resistance patterns in *E. coli* bloodstream infections in England.
+
+### Dashboard Content
+
+The dashboard brings together visualisations that allow readers to:
+
+* Compare resistance percentages across seven antibiotic categories.
+* Explore how resistance percentages vary over the reporting period.
+* Examine differences in the distribution of reported resistance values.
+* Identify patterns across antibiotic categories and dates.
+
+### Communicating Insights to Different Audiences
+
+The dashboard is intended for healthcare professionals, public health practitioners, researchers and interested members of the public. Clear titles, labels, percentage formatting and visual comparisons help readers understand the findings without requiring programming knowledge.
+
+Technical readers can use the dashboard alongside the Jupyter Notebook to understand the analysis in more detail. Non-technical readers can focus on the charts and the main patterns.
+
+### Accessibility and Responsible Presentation
+
+The dashboard uses labelled visualisations and percentage values to support interpretation. The findings should be read alongside the project's documented limitations, particularly the three-month rolling reporting period. The dashboard presents descriptive surveillance information, not individualised clinical advice or evidence of causation.
+
 
 ## Tools and Technologies
 
